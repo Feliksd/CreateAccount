@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <section class="kiri">
+        <div class="logo">
+          <h1>TravIndo</h1>
+        </div>
+        <div class="account">
+          <img class="imglogo" src="image/IconLogin'.png" type="logo" />
+          <h1>Create an Account</h1>
+          <div class="login-form">
+            <form action="login.php" method="post">
+              <div class="form-group">
+                <label for="username">Email</label>
+                <input type="text" id="username" name="username" required />
+              </div>
+              <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required />
+              </div>
+              <div class="form-group">
+                <label for="Confirm-password">Confirm Password</label>
+                <input type="password" id="password" name="password" required />
+              </div>
+              <button type="submit" class="btn btn-primary">
+                Create Account
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+      <section class="kanan">
+        <img src="image/Gambar_Login.png" type="image" />
+        <a href=""><button>Sign In</button></a>
+      </section>
+    </div>
+  </body>
+</html>
