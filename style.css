@@ -89,22 +89,23 @@
 /* Style the form labels */
 .login-form label {
   display: block;
-  margin-bottom: 10px;
   margin-top: 30px;
   font-weight: bold;
 }
 
 /* Style the form input fields */
 .login-form input[type="text"],
-.login-form input[type="password"] {
+.login-form input[type="password"],
+.login-form input[type="Confirm-password"] {
   width: 300px;
-  padding: 10px;
-
+  padding-top: 10px;
+  border-style: none;
   color: white;
   background-color: transparent;
   font-size: 16px;
+  border: none;
+  outline: none;
 }
-
 /* Style the form submit button */
 .login-form button[type="submit"] {
   display: block;
