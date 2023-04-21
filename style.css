@@ -15,46 +15,58 @@
   min-height: 100vh;
   position: relative;
 }
-.kiri .logo h1 {
+.logo h1 {
   font-family: "Harlow Solid Italic", sans-serif;
   color: white;
   font-weight: lighter;
-  padding-top: 30px;
+  padding: 20px;
   padding-left: 50px;
   font-size: 30px;
 }
-
+/*------Kiri------*/
 .kiri .account {
   position: absolute;
-}
-.kiri .account .imglogo {
-  position: relative;
-  left: 200%;
+  text-align: center;
+  top: 20%;
+  left: 20%;
+  padding: 50px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
 }
 .kiri .account h1 {
   color: white;
   font-family: "Montserrat", sans-serif;
   position: relative;
   top: 10px;
-  left: 175%;
+  left: 0;
 }
+.kiri .account .login-form {
+  position: relative;
+  left: 0;
+}
+
+/*------Kanan------*/
 .kanan {
+  padding: 30px;
   display: flex;
   justify-content: end;
   padding-right: 150px;
 }
 .kanan img {
-  width: 30%;
+  width: 27%;
   position: absolute;
-  top: 5%;
+  top: 12%;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 .kanan a button {
   position: absolute;
   right: 200px;
-  top: 50px;
+  top: 14%;
   font-size: 13px;
   padding: 5px 24px;
-  border-radius: 4px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   border-style: none;
   background-color: white;
   cursor: pointer;
@@ -63,21 +75,11 @@
   transition: 0.3s;
 }
 .kanan a button:hover {
-  background-color: gray;
+  background-color: whitesmoke;
   transition: 0.3s;
 }
-.kiri .account .imglogo {
-  position: relative;
-  left: 140%;
-}
-.kiri .account h1 {
-  position: relative;
-  left: 120%;
-}
-.kiri .account .login-form {
-  position: relative;
-  left: 110%;
-}
+
+
 /* Style the login form container */
 .login-form {
   color: gray;
@@ -123,6 +125,6 @@
 
 /* Style the form submit button on hover */
 .login-form button[type="submit"]:hover {
-  background-color: #0069d9;
+  background-color: blueviolet;
   transition: 0.5s;
 }
