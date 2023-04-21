@@ -44,20 +44,6 @@
   position: relative;
   left: 0;
 }
-.bawah-input{
-  padding-top: 20px;
-  color: white;
-  font-weight: 100;
-  display: flex;
-  justify-content: space-between;
-}
-.bawah-input p a{
-  
-  
-  color: white;
-  font-weight: bold;
-}
-
 /*------Kanan------*/
 .kanan {
   padding: 30px;
