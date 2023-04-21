@@ -27,7 +27,7 @@
 .kiri .account {
   position: absolute;
   text-align: center;
-  top: 13%;
+  top: 10%;
   left: 20%;
   padding: 50px;
   border-radius: 5px;
@@ -43,6 +43,19 @@
 .kiri .account .login-form {
   position: relative;
   left: 0;
+}
+.bawah-input{
+  padding-top: 20px;
+  color: white;
+  font-weight: 100;
+  display: flex;
+  justify-content: space-between;
+}
+.bawah-input p a{
+  
+  
+  color: white;
+  font-weight: bold;
 }
 
 /*------Kanan------*/
